@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/WeatherApp/weatherindex.css">
+
+    <link rel="icon" type="image/all" href="/WeatherApp/Images/favicon22.png">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input type="text" placeholder="Enter Your Location" class="input-box">
+
+                <button class="fa-solid fa-magnifying-glass" id="searchBtn">
+
+                </button>
+            </div>
+        </div>
+
+
+        <div class="weather-body">
+            <img src="/WeatherApp/Images/cloud 1.png" alt="NoImg" class="weather-img">
+            <div class="weather-box">
+                <p class="temperature">0 <sup>°C</sup></p>
+
+                <p class="description">No Location Entered</p>
+            </div>
+
+            <div class="weather-detail">
+                <div class="humidity">
+                    <i class="fa-sharp fa-solid fa-droplet"></i>
+                    <div class="text">
+                        <span id="humidity">0%</span>
+                        <p>humidity</p>
+                    </div>
+                </div>
+
+
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span id="wind-speed">0km/H</span>
+                        <p>Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="/WeatherApp/weatherindex.js"></script>
+    <script src="https://kit.fontawesome.com/595a890311.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
